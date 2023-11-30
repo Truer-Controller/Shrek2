@@ -1,3 +1,9 @@
+  BISCOITO("   _________.__                     __        ________")
+  BISCOITO("  /   _____/|  |__ _______   ____  |  | __    \_____  \  ")
+  BISCOITO("  \_____  \ |  |  \\_  __ \_/ __ \ |  |/ /     /  ____/")
+  BISCOITO("  /        \|   Y  \|  | \/\  ___/ |    <     /       \  ")
+  BISCOITO(" /_______  /|___|  /|__|    \___  >|__|_ \    \_______ \ ")
+
 Shrek a = 5
 BISCOITO(a)
 Shrek b = 1.5
@@ -14,9 +20,6 @@ Shrek g = b * a
 BISCOITO(g)
 Shrek h = a ^ b
 BISCOITO(h)
-
-Fada greet(person, emphazistation) -> "Hello, " * emphazistation + person
-greet("CodePulse", 3)
 
 AGenteJaChegou i = 0 VaiPangare 5 Burrofobia
 	BISCOITO("Estou no meu FOR")
@@ -38,3 +41,54 @@ SouUmOgro a < 0 Burrofobia
 OuNaoSouOgro
 	BISCOITO("negativo")
 Enfezado
+
+Shrek list1 = [1,2,3,4] + 4
+BISCOITO(list1)
+Shrek list2 = [1,2,3] * [3,4,5]
+BISCOITO(list2)
+
+BISCOITO(MATH_PI)
+BISCOITO(IS_NUM(123))
+BISCOITO(IS_NUM("testerafa"))
+BISCOITO(IS_LIST([]))
+BISCOITO(IS_STR("Professor"))
+
+Shrek list = [1,2,3,4]
+APPEND(list, 5)
+BISCOITO(list)
+
+POP(list, 3)
+BISCOITO(list)
+
+EXTEND(list, [6,7,8])
+BISCOITO(list)
+
+SouUmOgro 5 == 5 Burrofobia; BISCOITO("FALSO"); BISCOITO("VERDADEIRO") OuNaoSouOgro BISCOITO("teste limitador")
+
+Fada oopify(prefix) -> prefix + "oop"
+
+Fada join(elements, separador)
+	Shrek resultado = ""
+	Shrek len = LEN(elements)
+
+	AGenteJaChegou i = 0 VaiPangare len Burrofobia
+		Shrek resultado = resultado + elements/i
+		SouUmOgro i != len - 1 Burrofobia Shrek resultado = resultado + separador
+	Enfezado
+	VemBurro resultado
+Enfezado
+
+Fada map(elements, func)
+	Shrek new_elements = []
+
+	AGenteJaChegou i = 0 VaiPangare LEN(elements) Burrofobia
+		APPEND(new_elements, func(elements/i))
+	Enfezado
+	
+	VemBurro new_elements
+Enfezado
+
+AGenteJaChegou i = 0 VaiPangare 5 Burrofobia
+	BISCOITO(join(map(["l", "sp"], oopify), ", "))
+Enfezado
+

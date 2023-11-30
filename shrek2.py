@@ -110,8 +110,8 @@ TT_POW				= 'Haroldo'       #POW (Potencia)
 TT_EQ					= 'EQ'            #TOKEN DE IDENTIFICAÇÃO DO SINAL DE ATRIBUIÇÃO NO MOMENTO DE DECLARAR A VARIAVEL
 TT_LPAREN   	= 'LPAREN'        #Parenteses esquerda
 TT_RPAREN   	= 'RPAREN'        #Parenteses Direita
-TT_LSQUARE    = 'LSQUARE'       #
-TT_RSQUARE    = 'RSQUARE'       #
+TT_LSQUARE    = 'LSQUARE'       #COLCHETES ESQUERDOS
+TT_RSQUARE    = 'RSQUARE'       #COLCHETES DIREITO
 TT_EE					= 'EE'            #TOKEN QUANDO FOR IGUAL IGUAL == 
 TT_NE					= 'NE'            #TOKEN QUANDO FOR O NOT IGUAL
 TT_LT					= 'LT'            #MAIOR QUE
@@ -120,7 +120,7 @@ TT_LTE				= 'LTE'           #MAIOR IGUAL
 TT_GTE				= 'GTE'           #MENOR IGUAL
 TT_COMMA			= 'COMMA'         #TOKEN COMUM
 TT_ARROW			= 'ARROW'         #TOKEN DE SETA ->
-TT_NEWLINE		= 'NEWLINE'
+TT_NEWLINE		= 'NEWLINE'       #VERIFICANDO A NOVA LINHA
 TT_EOF				= 'EOF'           #Token para identificar se chegamos no final da operação, linha ou no final do token, melhor dizendo no final do arquivo analisador
 
 KEYWORDS = [
