@@ -1,0 +1,40 @@
+Shrek a = 5
+BISCOITO(a)
+Shrek b = 1.5
+BISCOITO(b)
+Shrek c = "teste string"
+BISCOITO(c)
+Shrek d = a + b
+BISCOITO(d)
+Shrek e = b - a
+BISCOITO(e)
+Shrek f = a / b
+BISCOITO(f)
+Shrek g = b * a
+BISCOITO(g)
+Shrek h = a ^ b
+BISCOITO(h)
+
+Fada greet(person, emphazistation) -> "Hello, " * emphazistation + person
+greet("CodePulse", 3)
+
+AGenteJaChegou i = 0 VaiPangare 5 Burrofobia
+	BISCOITO("Estou no meu FOR")
+Enfezado
+
+SouUmOgro 5 == 5 Burrofobia BISCOITO("Essa condicao e verdadeira")
+
+SouUmOgro 5 == 5 Farquaad 4 == 4 Burrofobia BISCOITO("Isso aqui nao deve ser printado se for falso")
+
+SouUmOgro 5 == 6 Dragao 4 == 4 Burrofobia BISCOITO("Isso aqui deve ser printado mesmo se a primeira condicao e falsa")
+
+SouUmOgro 5 == 6 Burrofobia BISCOITO("FALSO") OuNaoSouOgro BISCOITO("Era pra eu cair no ELSE e fui certo")
+
+Distante i < 10  Burrofobia Shrek i = i + 1
+BISCOITO(i)
+
+SouUmOgro a < 0 Burrofobia
+	BISCOITO("positivo")
+OuNaoSouOgro
+	BISCOITO("negativo")
+Enfezado
